@@ -1,0 +1,26 @@
+{
+  "name": "ahf",
+  "version": "1.0.0",
+  "description": "Another http framework",
+  "main": "index.ts",
+  "scripts": {
+    "start:dev": "tsc-watch --onSuccess \"nodemon ./dist/index.js\""
+  },
+  "keywords": [
+    "http",
+    "nodejs",
+    "expressjs",
+    "express",
+    "backend",
+    "node"
+  ],
+  "author": "Terminaate",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.6.3",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1",
+    "tsc-watch": "^5.0.3",
+    "typescript": "^4.7.4"
+  }
+}
